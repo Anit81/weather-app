@@ -2,11 +2,12 @@
   display: flex;
   align-items: center;
   padding-top:10px;
+  padding-left:15px;
 }
 h1{
   display:block;
   color: white;
-  padding-top:60%;
+  padding-top:40%;
   text-align:center;
 }
 .input-field{
