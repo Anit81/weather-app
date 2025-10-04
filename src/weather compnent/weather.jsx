@@ -22,6 +22,7 @@ export function WeathearAppComponent(){
 
   return (
     <>
+        <h1>Check your Current city Weather Condition</h1>
     <div className='input-btn'>
         <input placeholder='Type your city' className='input-field' onChange={inputField} value={inputChat} />
       <button className='butt' onClick={fetchWeather}>send</button>
