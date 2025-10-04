@@ -1,12 +1,12 @@
 .input-btn{
   display: flex;
   align-items: center;
-  padding-top: 60;
+  padding-top:10px;
 }
 h1{
   display:block;
   color: white;
-  padding:60%;
+  padding-top:60%;
   text-align:center;
 }
 .input-field{
