@@ -22,7 +22,7 @@ export function WeathearAppComponent(){
 
   return (
     <>
-         <h1>Weather app</h1>
+         <h1>Search your city weather condition</h1>
     <div className='input-btn'>
      
         <input placeholder='Type your city' className='input-field' onChange={inputField} value={inputChat} />
