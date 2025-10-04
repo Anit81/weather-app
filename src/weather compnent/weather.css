@@ -3,7 +3,10 @@
   align-items: center;
   padding-top: 60%;
 }
-
+h1{
+  display:block;
+  color: white;
+}
 .input-field{
   font-size: 19px;
   padding: 8px 18px;
