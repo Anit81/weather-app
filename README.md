@@ -12,7 +12,7 @@ A simple React app that lets users check the current weather in any city around 
 - OpenWeatherMap API
 
 ## How to Run
-1. Clone the repository: `git clone <your-repo-link>`
+1. Clone the repository: `git clone <https://github.com/Anit81/weather-app>`
 2. Go to the project folder: `cd weather-app`
 3. Install dependencies: `npm install`
 4. Start the app: `npm start`
