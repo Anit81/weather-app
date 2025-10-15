@@ -1,12 +1,25 @@
-# React + Vite
+# Weather App 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app that lets users check the current weather in any city around the world.
 
-Currently, two official plugins are available:
+## Features
+- Search for any city and see the current weather
+- Shows temperature, humidity, wind speed, and weather conditions
+- Responsive design for desktop and mobile
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React, JavaScript, HTML, CSS
+- OpenWeatherMap API
 
-## Expanding the ESLint configuration
+## How to Run
+1. Clone the repository: `git clone <your-repo-link>`
+2. Go to the project folder: `cd weather-app`
+3. Install dependencies: `npm install`
+4. Start the app: `npm start`
+5. Open your browser at [http://localhost:3000](http://localhost:3000)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+Check out the live app here: [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)
+
+## Contact
+Created by **Ibesi Faustina**. Feel free to reach out via GitHub for feedback or collaboration.
