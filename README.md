@@ -19,7 +19,7 @@ A simple React app that lets users check the current weather in any city around 
 5. Open your browser at [http://localhost:3000](http://localhost:3000)
 
 ## Live Demo
-Check out the live app here: [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)
+Check out the live app here: [https://your-vercel-link.vercel.app](https://weather-app-alpha-murex-40.vercel.app/)
 
 ## Contact
 Created by **Ibesi Faustina**. Feel free to reach out via GitHub for feedback or collaboration.
