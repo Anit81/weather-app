@@ -1,4 +1,4 @@
-import { WeathearAppComponent } from './weather compnent/weather'
+import { WeathearAppComponent } from './weather component/weather'
 import './App.css'
 
 

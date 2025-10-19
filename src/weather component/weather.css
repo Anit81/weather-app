@@ -1,0 +1,160 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #141E30, #243B55);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+
+.input-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  flex-wrap: wrap; 
+}
+
+.input-field {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  width: 230px;
+  transition: box-shadow 0.3s ease;
+}
+
+.input-field:focus {
+  box-shadow: 0 0 8px rgba(255,255,255,0.6);
+}
+
+.butt {
+  padding: 10px 22px;
+  background-color: #8b5cf6;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.butt:hover {
+  background-color: #a56cf9;
+  transform: scale(1.05);
+}
+.city {
+  font-size: 1.8rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.temp {
+  font-size: 1.4rem;
+  color: #fff;
+  text-align: center;
+}
+
+.temp span {
+  font-size: 3rem;
+  color: #ffeb3b;
+  font-weight: 600;
+}
+
+.temp img {
+  width: 70px;
+  vertical-align: middle;
+}
+
+.condition {
+  font-size: 1.4rem;
+  color: #eee;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.error {
+  color: #ff5c5c;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.loading {
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .input-field {
+    width: 180px;
+    font-size: 16px;
+  }
+
+  .butt {
+    font-size: 16px;
+    padding: 8px 18px;
+  }
+
+  .temp span {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  .input-btn {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .input-field {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .butt {
+    width: 100%;
+    max-width: 150px;
+  }
+
+  .city,
+  .temp,
+  .condition {
+    font-size: 1.2rem;
+  }
+
+  .temp span {
+    font-size: 2rem;
+  }
+}
